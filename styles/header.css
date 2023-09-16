@@ -50,3 +50,35 @@ header {
     border-left: 3px solid var(--section-color);
     border-bottom: 3px solid var(--background-color);
 }
+
+@media screen and (max-width: 1385px) {
+    header {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 870px) {
+    .title {
+        font-size: 2.5em;
+    }
+
+    .menu {
+        flex-direction: column;
+        align-content: flex-start;
+        gap: .1em;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .title {
+        font-size: 1.9em;
+    }
+
+    .side-menu__title {
+        font-size: 1.5em;
+    }
+
+    .menu__opt {
+        font-size: 1.4em;
+    }
+}
